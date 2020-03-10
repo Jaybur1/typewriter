@@ -9,7 +9,6 @@ const typewriter = str => {
     }, timeout);
     timeout += 50;
   }
-  return '\n'
 };
 
 typewriter(sentence);
